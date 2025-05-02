@@ -3,7 +3,7 @@
 Download IAM policy
 
 ```
-curl -O https://raw.githubusercontent.com/kubernetes-sigs/aws-load-balancer-controller/v2.5.4/docs/install/iam_policy.json
+curl -O https://raw.githubusercontent.com/kubernetes-sigs/aws-load-balancer-controller/v2.11.0/docs/install/iam_policy.json
 ```
 
 Create IAM Policy
@@ -57,6 +57,3 @@ Verify that the deployments are running.
 ```
 kubectl get deployment -n kube-system aws-load-balancer-controller
 ```
-
-
-
